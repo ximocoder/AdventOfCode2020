@@ -8,17 +8,24 @@ namespace ConsoleAppAdventOfCode
         {
             Console.WriteLine("Hello AdventOfCode!");
 
-            //Day1 d1 = new Day1();
+            Console.WriteLine("Choose the Day: ");
+            string day = Console.ReadLine();
 
-            //int res = d1.GiveMeResultA();
-            //int res2 = d1.GiveMeResultB();
-
-            Day2 d2 = new Day2();
-            int result1d2 = d2.GetNotValidPasswords(Day2.Part.epart1);
-            Console.WriteLine($"Day result: {result1d2}");
-
-            int result2d2 = d2.GetNotValidPasswords(Day2.Part.epart2);
-            Console.WriteLine($"Day result: {result2d2}");
+            switch (day)
+            {
+                case "1":
+                    Day1 d1 = new Day1();
+                    Console.WriteLine($"Day1 resultA: {d1.GiveMeResultA()}");
+                    Console.WriteLine($"Day1 resultB: {d1.GiveMeResultB()}");
+                    break;
+                case "2":
+                    Day2 d2 = new Day2();
+                    Console.WriteLine($"Day2 result A: {d2.GetNotValidPasswords(Day2.Part.epart1)}");
+                    Console.WriteLine($"Day2 result B: {d2.GetNotValidPasswords(Day2.Part.epart2)}");
+                    break;
+                default:
+                    break;
+            }
 
             Console.ReadLine();
         }
