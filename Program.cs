@@ -9,7 +9,8 @@ namespace ConsoleAppAdventOfCode
             Console.WriteLine("Hello AdventOfCode 2020!");
 
             Console.WriteLine("Choose the Day: ");
-            string day = Console.ReadLine();
+            //string day = Console.ReadLine();
+            string day = "3";
 
             switch (day)
             {
@@ -25,8 +26,8 @@ namespace ConsoleAppAdventOfCode
                     break;
                 case "3":
                     Day3 d3 = new Day3();
-                    Console.WriteLine($"Day3 result A: ");
-                    Console.WriteLine($"Day3 result B: ");
+                    //Console.WriteLine($"Day3 result A: {d3.GetNumberOfTrees()}");
+                    Console.WriteLine($"Day3 result B: {d3.GetNumberOfTreesPart2()}");
                     break;
                 case "4":
                     Day4 d4 = new Day4();
