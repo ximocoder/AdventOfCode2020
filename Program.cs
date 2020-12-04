@@ -10,7 +10,7 @@ namespace ConsoleAppAdventOfCode
 
             Console.WriteLine("Choose the Day: ");
             //string day = Console.ReadLine();
-            string day = "3";
+            string day = "4";
 
             switch (day)
             {
@@ -26,13 +26,12 @@ namespace ConsoleAppAdventOfCode
                     break;
                 case "3":
                     Day3 d3 = new Day3();
-                    //Console.WriteLine($"Day3 result A: {d3.GetNumberOfTrees()}");
+                    Console.WriteLine($"Day3 result A: {d3.GetNumberOfTrees()}");
                     Console.WriteLine($"Day3 result B: {d3.GetNumberOfTreesPart2()}");
                     break;
                 case "4":
                     Day4 d4 = new Day4();
-                    Console.WriteLine($"Day4 result A: ");
-                    Console.WriteLine($"Day4 result B: ");
+                    Console.WriteLine($"Day4 result A:  {d4.GetNumberOfPasswords()}");
                     break;
                 case "5":
                     Day5 d5 = new Day5();
