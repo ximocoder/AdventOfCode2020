@@ -10,7 +10,7 @@ namespace ConsoleAppAdventOfCode
 
             Console.WriteLine("Choose the Day: ");
             //string day = Console.ReadLine();
-            string day = "4";
+            string day = "5";
 
             switch (day)
             {
@@ -35,7 +35,7 @@ namespace ConsoleAppAdventOfCode
                     break;
                 case "5":
                     Day5 d5 = new Day5();
-                    Console.WriteLine($"Day5 result A: ");
+                    Console.WriteLine($"Day5 result A: {d5.GetHigherId()}");
                     Console.WriteLine($"Day5 result B: ");
                     break;
                 default:
