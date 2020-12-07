@@ -10,7 +10,7 @@ namespace ConsoleAppAdventOfCode
 
             Console.WriteLine("Choose the Day: ");
             //string day = Console.ReadLine();
-            string day = "6";
+            string day = "7";
 
             switch (day)
             {
@@ -42,6 +42,26 @@ namespace ConsoleAppAdventOfCode
                     Day6 d6 = new Day6();
                     //Console.WriteLine($"Day6 result A: {d6.GetSumOfCounts()}");
                     Console.WriteLine($"Day6 result B: {d6.GetSumOfCountsB()}");
+                    break;
+                case "7":
+                    Day7 d7 = new Day7();
+                    Console.WriteLine($"Day7 result A: {d7.GetNumberOfBagsCanContainOneShinnyGoldBag()}");
+                    break;
+                case "8":
+                    Day8 d8 = new Day8();
+                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
+                    break;
+                case "9":
+                    Day9 d9 = new Day9();
+                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
+                    break;
+                case "10":
+                    Day10 d10 = new Day10();
+                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
+                    break;
+                case "11":
+                    Day11 d11 = new Day11();
+                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
                     break;
                 default:
                     break;
