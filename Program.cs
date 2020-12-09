@@ -53,7 +53,8 @@ namespace ConsoleAppAdventOfCode
                     break;
                 case "9":
                     Day9 d9 = new Day9();
-                    Console.WriteLine($"Day8 result A: {d9.GetFirstNumber()}");
+                    Console.WriteLine($"Day9 result A: {d9.GetFirstNumber()}");
+                    Console.WriteLine($"Day9 result B: {d9.GetSecondNumber()}");
                     break;
                 case "10":
                     Day10 d10 = new Day10();
@@ -71,3 +72,4 @@ namespace ConsoleAppAdventOfCode
         }
     }
 }
+
