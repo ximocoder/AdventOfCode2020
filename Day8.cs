@@ -4,9 +4,11 @@ namespace ConsoleAppAdventOfCode
 {
     internal class Day8
     {
-        internal object GetResult()
+        internal int GetResult()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            return 0;
         }
     }
 }
