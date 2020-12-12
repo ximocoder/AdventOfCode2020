@@ -58,11 +58,31 @@ namespace ConsoleAppAdventOfCode
                     break;
                 case "10":
                     Day10 d10 = new Day10();
-                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
+                    Console.WriteLine($"Day10 result A: {d10.GetResultA()}");
                     break;
                 case "11":
                     Day11 d11 = new Day11();
-                    //Console.WriteLine($"Day7 result A: {d7.GetSumOfCounts()}");
+                    Console.WriteLine($"Day11 result A: {d11.GetResultA()}");
+                    break;
+                case "12":
+                    Day12 d12 = new Day12();
+                    Console.WriteLine($"Day12 result A: {d12.GetResultA()}");
+                    break;
+                case "13":
+                    Day13 d13 = new Day13();
+                    Console.WriteLine($"Day13 result A: {d13.GetResultA()}");
+                    break;
+                case "14":
+                    Day14 d14 = new Day14();
+                    Console.WriteLine($"Day14 result A: {d14.GetResultA()}");
+                    break;
+                case "15":
+                    Day15 d15 = new Day15();
+                    Console.WriteLine($"Day15 result A: {d15.GetResultA()}");
+                    break;
+                case "16":
+                    Day16 d16 = new Day16();
+                    Console.WriteLine($"Day16 result A: {d16.GetResultA()}");
                     break;
                 default:
                     break;

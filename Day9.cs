@@ -30,7 +30,7 @@ namespace ConsoleAppAdventOfCode
         internal double GetSecondNumber()
         {
             int res = 0;
-            double firstNumber = GetFirstNumber();
+            double firstNumber = 41682220d; //GetFirstNumber();
 
             var lines = File.ReadAllLines(Path);
 
@@ -38,11 +38,11 @@ namespace ConsoleAppAdventOfCode
             int firstDigits = 0;
 
             int i = 0;
-            while (i  < lines.Length - 1)
+            while (i < lines.Length - 1)
             {
                 int j = i;
                 while (sum < firstNumber)
-                {                    
+                {
                     sum += double.Parse(lines[j]);
                     j++;
                 }
@@ -51,15 +51,13 @@ namespace ConsoleAppAdventOfCode
                     var ress = lines.SubArray(i, j - i);
 
                     return GetSumSmallAndBig(ress);
-
                 }
-                    
 
-                sum = 0;  
+                sum = 0;
                 i++;
             }
 
-            return sum;            
+            return sum;
         }
 
         private double GetSumSmallAndBig(string[] ress)

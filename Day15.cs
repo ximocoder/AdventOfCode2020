@@ -2,8 +2,12 @@
 
 namespace ConsoleAppAdventOfCode
 {
-    internal class Day10
+    internal class Day15
     {
+        public Day15()
+        {
+        }
+
         internal object GetResultA()
         {
             throw new NotImplementedException();

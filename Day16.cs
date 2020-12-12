@@ -2,7 +2,7 @@
 
 namespace ConsoleAppAdventOfCode
 {
-    internal class Day10
+    internal class Day16
     {
         internal object GetResultA()
         {
