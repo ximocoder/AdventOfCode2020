@@ -84,6 +84,10 @@ namespace ConsoleAppAdventOfCode
                     Day16 d16 = new Day16();
                     Console.WriteLine($"Day16 result A: {d16.GetResultA()}");
                     break;
+                case "17":
+                    Day17 d17 = new Day17();
+                    Console.WriteLine($"Day17 result A: {d17.GetResultA()}");
+                    break;
                 default:
                     break;
             }
